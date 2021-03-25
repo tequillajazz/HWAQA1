@@ -14,6 +14,7 @@ namespace HWAQA1
 			Console.WriteLine("Circle area: " + Math.Round(circle.GetArea(), 2));
 			Console.WriteLine("Press any key...");
 			Console.ReadKey();
+			Console.Clear();
 		}
 
 		public static void SquareArea()
@@ -26,6 +27,7 @@ namespace HWAQA1
 			Console.WriteLine("Rectangle area: " + Math.Round(square.GetArea(), 2));
 			Console.WriteLine("Press any key...");
 			Console.ReadKey();
+			Console.Clear();
 		}
 	}
 }

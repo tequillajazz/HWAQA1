@@ -5,7 +5,6 @@ namespace HWAQA1
 	{
 		public static void Main(string[] args)
 		{
-			AreaCalculator areaCalculator = new AreaCalculator();
 			AreaCalculator.CircleArea();
 			AreaCalculator.SquareArea();
 		}

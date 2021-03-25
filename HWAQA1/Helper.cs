@@ -15,7 +15,7 @@ namespace HWAQA1
 
 					if (enteredValue <= 0)
 					{
-						Console.Write("ERR:You entered a negative value.\n");
+						Console.Write("ERR:You entered a wrong value.\n");
 						continue;
 					}
 					if (enteredValue > 5)
@@ -37,9 +37,9 @@ namespace HWAQA1
 			return randomValue;
 		}
 
-		private static readonly Random random = new Random();
+		private readonly Random random = new Random();
 
-		private static double RandomNumberBetween(double minValue, double maxValue)
+		private double RandomNumberBetween(double minValue, double maxValue)
 		{
 			var next = random.NextDouble();
 			return minValue + (next * (maxValue - minValue));
